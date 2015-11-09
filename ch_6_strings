@@ -1,0 +1,15 @@
+# exercise 6.5
+
+# use find and string slicing to extract portion of the string after the colon
+# then use float function to convert extracted string into a floating point number
+
+# X-DSPAM-Confidence: 0.8475
+
+x = 'X-DSPAM-Confidence: 0.8475'
+point = x.find(':')
+num = float(x[point+1:])
+# because we want the number after the colon
+print float(num)
+
+# point = the point that I want to find 
+# the prof uses 'pos' for position.  
