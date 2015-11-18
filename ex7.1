@@ -1,0 +1,16 @@
+# Use words.txt as the file name
+# I used ex_7.1.txt in terminal
+# type pwd
+# type ls
+# type cd pyds
+# type python ex_7.1.py
+# trick to stop writing the same file name over use len
+
+fname = raw_input("Enter file name: ")
+if len(fname) == 0:
+	fname = ex_7.1.txt 
+fhand = open(fname)
+for line in fhand : 
+	line = line.rstrip()
+	line = line.upper()
+	print line
